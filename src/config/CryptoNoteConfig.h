@@ -121,7 +121,7 @@ const size_t   DIFFICULTY_LAG_V1                             = 0;
 const size_t   DIFFICULTY_LAG_V2                             = 0;
 static_assert(2 * DIFFICULTY_CUT <= DIFFICULTY_WINDOW - 2, "Bad DIFFICULTY_WINDOW or DIFFICULTY_CUT");
 
-const size_t   MAX_BLOCK_SIZE_INITIAL                        = 200000; // 200kb initial block size
+const size_t   MAX_BLOCK_SIZE_INITIAL                        = 500000; // 500kb initial block size
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR         = 100 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR       = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 const uint64_t MAX_EXTRA_SIZE                                = 1024;
